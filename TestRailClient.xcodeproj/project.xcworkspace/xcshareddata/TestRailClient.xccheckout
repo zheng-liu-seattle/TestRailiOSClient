@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2E33817-86EF-4F6F-96AD-EC476E6504C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestRailClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6EED44F9BB19434EBFB936FB59775451BBE07714</key>
+		<string>https://github.com/lzbob/TestRailiOSClient.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestRailClient.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6EED44F9BB19434EBFB936FB59775451BBE07714</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lzbob/TestRailiOSClient.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6EED44F9BB19434EBFB936FB59775451BBE07714</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6EED44F9BB19434EBFB936FB59775451BBE07714</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestRailiOSClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>

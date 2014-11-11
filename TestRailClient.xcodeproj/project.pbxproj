@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5C8B3719E4A5DA00365B5D /* TestRailClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC5C8B3619E4A5DA00365B5D /* TestRailClient.h */; };
+		BC5C8B3919E4A5DA00365B5D /* TestRailClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5C8B3819E4A5DA00365B5D /* TestRailClient.m */; };
+		BC5C8B4D19E4A7B100365B5D /* TestRailUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5C8B4C19E4A7B100365B5D /* TestRailUtility.m */; };
+		BC73F4CA19E5DE2C00B4C96E /* TestRailUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC5C8B4B19E4A7B100365B5D /* TestRailUtility.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC5C8B3119E4A5D900365B5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BC73F4CA19E5DE2C00B4C96E /* TestRailUtility.h in CopyFiles */,
+				BC5C8B3719E4A5DA00365B5D /* TestRailClient.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC5C8B3319E4A5DA00365B5D /* libTestRailClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestRailClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5C8B3619E4A5DA00365B5D /* TestRailClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRailClient.h; sourceTree = "<group>"; };
+		BC5C8B3819E4A5DA00365B5D /* TestRailClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRailClient.m; sourceTree = "<group>"; };
+		BC5C8B4B19E4A7B100365B5D /* TestRailUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestRailUtility.h; path = ../TestRailUtility.h; sourceTree = "<group>"; };
+		BC5C8B4C19E4A7B100365B5D /* TestRailUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestRailUtility.m; path = ../TestRailUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5C8B3019E4A5D900365B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5C8B2A19E4A5D900365B5D = {
+			isa = PBXGroup;
+			children = (
+				BC5C8B3519E4A5DA00365B5D /* TestRailClient */,
+				BC5C8B3419E4A5DA00365B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5C8B3419E4A5DA00365B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5C8B3319E4A5DA00365B5D /* libTestRailClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5C8B3519E4A5DA00365B5D /* TestRailClient */ = {
+			isa = PBXGroup;
+			children = (
+				BC5C8B4B19E4A7B100365B5D /* TestRailUtility.h */,
+				BC5C8B4C19E4A7B100365B5D /* TestRailUtility.m */,
+				BC5C8B3619E4A5DA00365B5D /* TestRailClient.h */,
+				BC5C8B3819E4A5DA00365B5D /* TestRailClient.m */,
+			);
+			path = TestRailClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5C8B3219E4A5D900365B5D /* TestRailClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5C8B4419E4A5DA00365B5D /* Build configuration list for PBXNativeTarget "TestRailClient" */;
+			buildPhases = (
+				BC5C8B2F19E4A5D900365B5D /* Sources */,
+				BC5C8B3019E4A5D900365B5D /* Frameworks */,
+				BC5C8B3119E4A5D900365B5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestRailClient;
+			productName = TestRailClient;
+			productReference = BC5C8B3319E4A5DA00365B5D /* libTestRailClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5C8B2B19E4A5D900365B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Liu, Zheng";
+				TargetAttributes = {
+					BC5C8B3219E4A5D900365B5D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BC5C8B2E19E4A5D900365B5D /* Build configuration list for PBXProject "TestRailClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC5C8B2A19E4A5D900365B5D;
+			productRefGroup = BC5C8B3419E4A5DA00365B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5C8B3219E4A5D900365B5D /* TestRailClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5C8B2F19E4A5D900365B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5C8B3919E4A5DA00365B5D /* TestRailClient.m in Sources */,
+				BC5C8B4D19E4A7B100365B5D /* TestRailUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC5C8B4219E4A5DA00365B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC5C8B4319E4A5DA00365B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5C8B4519E4A5DA00365B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "inlude/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC5C8B4619E4A5DA00365B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "inlude/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5C8B2E19E4A5D900365B5D /* Build configuration list for PBXProject "TestRailClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5C8B4219E4A5DA00365B5D /* Debug */,
+				BC5C8B4319E4A5DA00365B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5C8B4419E4A5DA00365B5D /* Build configuration list for PBXNativeTarget "TestRailClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5C8B4519E4A5DA00365B5D /* Debug */,
+				BC5C8B4619E4A5DA00365B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5C8B2B19E4A5D900365B5D /* Project object */;
+}
